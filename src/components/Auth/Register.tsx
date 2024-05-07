@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import LoginBackground from 'assets/login_background.png'
-import Logo from 'assets/Logo'
-import { Checkbox, Input, Label } from 'components/Inputs'
-import Button from 'components/Button'
+import LoginBackground from '@/assets/login_background.png'
+import Logo from '@/assets/Logo'
+import { Checkbox, Input, Label } from '@/components/Inputs'
+import Button from '@/components/Button'
 
 const Register: React.FC = () => {
   const [checked, setChecked] = useState(false)
